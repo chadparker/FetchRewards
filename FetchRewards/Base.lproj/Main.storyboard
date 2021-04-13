@@ -16,24 +16,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="t9P-2o-AUu">
-                                <rect key="frame" x="0.0" y="44" width="414" height="51"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nP6-n0-pe4">
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nP6-n0-pe4">
                                 <rect key="frame" x="0.0" y="95" width="414" height="767"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="Zu6-v4-sEg" kind="embed" id="wN6-Mr-qYf"/>
                                 </connections>
                             </containerView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="t9P-2o-AUu">
+                                <rect key="frame" x="0.0" y="44" width="414" height="51"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Iyv-Am-nxv"/>
+                                </connections>
+                            </searchBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="nP6-n0-pe4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7Kr-kW-vxv"/>
+                            <constraint firstItem="nP6-n0-pe4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8Ty-3G-SXF"/>
+                            <constraint firstItem="nP6-n0-pe4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8aM-52-YUF"/>
                             <constraint firstItem="t9P-2o-AUu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="EcZ-ZB-TXi"/>
                             <constraint firstItem="t9P-2o-AUu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PLf-30-XGP"/>
                             <constraint firstItem="t9P-2o-AUu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VBb-W2-rB3"/>
+                            <constraint firstItem="nP6-n0-pe4" firstAttribute="top" secondItem="t9P-2o-AUu" secondAttribute="bottom" id="fD2-ip-YQO"/>
                         </constraints>
                     </view>
                     <connections>
@@ -70,7 +76,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oHs-D4-tYb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="913" y="85"/>
+            <point key="canvasLocation" x="948" y="132"/>
         </scene>
     </scenes>
     <resources>
