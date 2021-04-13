@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6369FB1026261DB20038910E /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6369FB0E26261DB20038910E /* EventTableViewCell.swift */; };
+		6369FB1126261DB20038910E /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6369FB0F26261DB20038910E /* EventTableViewCell.xib */; };
 		63897E16262538E70088E86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E15262538E70088E86E /* AppDelegate.swift */; };
 		63897E18262538E70088E86E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E17262538E70088E86E /* SceneDelegate.swift */; };
 		63897E1A262538E70088E86E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E19262538E70088E86E /* MainViewController.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6369FB0E26261DB20038910E /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		6369FB0F26261DB20038910E /* EventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
 		63897E12262538E70088E86E /* FetchRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63897E15262538E70088E86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63897E17262538E70088E86E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6369FB0726261D280038910E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6369FB0E26261DB20038910E /* EventTableViewCell.swift */,
+				6369FB0F26261DB20038910E /* EventTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		63897E09262538E70088E86E = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +109,7 @@
 				63897E40262541CB0088E86E /* Model */,
 				63897E29262539FC0088E86E /* Networking */,
 				63897E46262614DD0088E86E /* View Controllers */,
+				6369FB0726261D280038910E /* Views */,
 				63897E1B262538E70088E86E /* Main.storyboard */,
 				63897E1E262538E90088E86E /* Assets.xcassets */,
 				63897E20262538E90088E86E /* LaunchScreen.storyboard */,
@@ -218,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6369FB1126261DB20038910E /* EventTableViewCell.xib in Resources */,
 				63897E22262538E90088E86E /* LaunchScreen.storyboard in Resources */,
 				63897E1F262538E90088E86E /* Assets.xcassets in Resources */,
 				63897E1D262538E70088E86E /* Main.storyboard in Resources */,
@@ -238,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6369FB1026261DB20038910E /* EventTableViewCell.swift in Sources */,
 				63897E4526260EE60088E86E /* Event.swift in Sources */,
 				63897E3D26253CC00088E86E /* Secrets.swift in Sources */,
 				63897E4426254ED40088E86E /* Extensions.swift in Sources */,
