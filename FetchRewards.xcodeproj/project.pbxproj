@@ -15,6 +15,7 @@
 		63897E22262538E90088E86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63897E20262538E90088E86E /* LaunchScreen.storyboard */; };
 		63897E2B26253A160088E86E /* SeatGeekClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E2A26253A160088E86E /* SeatGeekClient.swift */; };
 		63897E3326253A630088E86E /* FetchRewardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E3226253A630088E86E /* FetchRewardsTests.swift */; };
+		63897E3D26253CC00088E86E /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E3C26253CC00088E86E /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		63897E3026253A630088E86E /* FetchRewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchRewardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63897E3226253A630088E86E /* FetchRewardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRewardsTests.swift; sourceTree = "<group>"; };
 		63897E3426253A630088E86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63897E3C26253CC00088E86E /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				63897E15262538E70088E86E /* AppDelegate.swift */,
 				63897E17262538E70088E86E /* SceneDelegate.swift */,
+				63897E3C26253CC00088E86E /* Secrets.swift */,
 				63897E29262539FC0088E86E /* Networking */,
 				63897E19262538E70088E86E /* ViewController.swift */,
 				63897E1B262538E70088E86E /* Main.storyboard */,
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63897E3D26253CC00088E86E /* Secrets.swift in Sources */,
 				63897E1A262538E70088E86E /* ViewController.swift in Sources */,
 				63897E16262538E70088E86E /* AppDelegate.swift in Sources */,
 				63897E18262538E70088E86E /* SceneDelegate.swift in Sources */,
