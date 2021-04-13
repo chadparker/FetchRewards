@@ -35,8 +35,10 @@ class EventsTableViewController: UITableViewController {
 
         return cell
     }
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let event = events[indexPath.row]
+        let eventDetailVC = EventDetailViewController(event: event)
+        present(eventDetailVC, animated: true, completion: nil)
     }
 }
