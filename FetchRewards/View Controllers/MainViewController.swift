@@ -16,6 +16,15 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        seatGeekClient.fetchAllEvents { result in
+            switch result {
+            case .success(let events):
+                self.eventsTableVC.events = events
+            case .failure(let networkError):
+                NSLog("Error: %@", networkError.localizedDescription)
+            }
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
