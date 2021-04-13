@@ -1,5 +1,5 @@
 //
-//  Extensions.swift
+//  DateFormatters.swift
 //  FetchRewards
 //
 //  Created by Chad Parker on 4/12/21.
