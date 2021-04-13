@@ -15,6 +15,7 @@ class EventTableViewCell: UITableViewCell {
         }
     }
     
+    @IBOutlet weak var eventImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
@@ -27,6 +28,10 @@ class EventTableViewCell: UITableViewCell {
         titleLabel.text = event.title
         locationLabel.text = event.displayLocation
         dateLabel.text = DateFormatter.dateTimeForDisplay.string(from: event.date)
+        
+        if let imageURL = URL(string: event.imageURLString) {
+            eventImageView.loadNetworkImage(url: imageURL)
+        }
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

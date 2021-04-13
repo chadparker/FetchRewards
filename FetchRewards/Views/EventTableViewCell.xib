@@ -61,6 +61,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="dateLabel" destination="P9r-QT-3XA" id="5Cg-UM-wKy"/>
+                <outlet property="eventImageView" destination="2W5-Nn-nQV" id="xTG-Zn-wnC"/>
                 <outlet property="locationLabel" destination="8Jc-BP-RMT" id="ULU-xE-AvE"/>
                 <outlet property="titleLabel" destination="7Mc-mV-vvW" id="CRY-aQ-Hwp"/>
             </connections>
