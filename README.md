@@ -18,3 +18,8 @@ The app is ready to go. I didn't use any external dependencies. It meets MVP, ex
 ## Favorites
 
 There are many ways to store the favorites, but I was planning on encoding a list of `Event`s to JSON and save it to the disk whenever the user added or removed a favorite event. This would enable the user to view their favorites even if offline, since the entire `Event` would be saved, not just the ID.
+
+---
+
+I look forward to hearing from you! Let me know if you have any comments or concerns:
+[chad@chadparker.com](mailto:chad@chadparker.com)
