@@ -83,6 +83,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		6369FB14262635000038910E /* Extesions */ = {
+			isa = PBXGroup;
+			children = (
+				63897E4326254ED40088E86E /* Extensions.swift */,
+				6369FB122626344B0038910E /* UIImage+loadNetworkImage.swift */,
+			);
+			path = Extesions;
+			sourceTree = "<group>";
+		};
 		63897E09262538E70088E86E = {
 			isa = PBXGroup;
 			children = (
@@ -107,8 +116,7 @@
 				63897E15262538E70088E86E /* AppDelegate.swift */,
 				63897E17262538E70088E86E /* SceneDelegate.swift */,
 				63897E3C26253CC00088E86E /* Secrets.swift */,
-				63897E4326254ED40088E86E /* Extensions.swift */,
-				6369FB122626344B0038910E /* UIImage+loadNetworkImage.swift */,
+				6369FB14262635000038910E /* Extesions */,
 				63897E40262541CB0088E86E /* Model */,
 				63897E29262539FC0088E86E /* Networking */,
 				63897E46262614DD0088E86E /* View Controllers */,
