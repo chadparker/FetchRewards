@@ -20,10 +20,6 @@ class EventTableViewCell: UITableViewCell {
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-    
     func updateViews() {
         titleLabel.text = event.title
         locationLabel.text = event.displayLocation
@@ -32,9 +28,5 @@ class EventTableViewCell: UITableViewCell {
         if let imageURL = URL(string: event.imageURLString) {
             eventImageView.loadNetworkImage(url: imageURL)
         }
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
     }
 }
