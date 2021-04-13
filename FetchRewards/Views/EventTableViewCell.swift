@@ -14,13 +14,19 @@ class EventTableViewCell: UITableViewCell {
             updateViews()
         }
     }
-
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var locationLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
     
     func updateViews() {
-        textLabel?.text = event.title
+        titleLabel.text = event.title
+        locationLabel.text = event.venue.displayLocation
+        dateLabel.text = DateFormatter.dateTimeForDisplay.string(from: event.date)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
