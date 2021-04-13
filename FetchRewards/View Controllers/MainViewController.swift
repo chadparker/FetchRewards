@@ -34,8 +34,7 @@ extension MainViewController: UISearchBarDelegate {
             case .success(let events):
                 self.eventsTableVC.events = events
             case .failure(_):
-                let alert = UIAlertController(title: "Network Error", message: "Please check your internet connection", preferredStyle: .alert)
-                self.present(alert, animated: true, completion: nil)
+                self.presentSimpleAlert(title: "Network Error", message: "Please check your internet connection")
             }
         }
     }
