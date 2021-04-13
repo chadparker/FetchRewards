@@ -9,7 +9,8 @@ import UIKit
 
 class MainViewController: UIViewController {
     
-
+    @IBOutlet weak var searchBar: UISearchBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
