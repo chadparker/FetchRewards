@@ -25,7 +25,7 @@ class EventTableViewCell: UITableViewCell {
     
     func updateViews() {
         titleLabel.text = event.title
-        locationLabel.text = event.venue.displayLocation
+        locationLabel.text = event.displayLocation
         dateLabel.text = DateFormatter.dateTimeForDisplay.string(from: event.date)
     }
 

@@ -7,23 +7,27 @@
 
 import Foundation
 
-struct Event: Codable {
+struct Event: Decodable {
     let title: String
     let date: Date
-    let venue: Venue
+    let displayLocation: String
     
-    enum CodingKeys: String, CodingKey {
+    enum EventKeys: String, CodingKey {
         case title
         case date = "datetime_local"
         case venue
     }
     
-    struct Venue: Codable {
-        let displayLocation: String
-        
-        enum CodingKeys: String, CodingKey {
-            case displayLocation = "display_location"
-        }
+    enum VenueKeys: String, CodingKey {
+        case displayLocation = "display_location"
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: EventKeys.self)
+        title = try container.decode(String.self, forKey: .title)
+        date = try container.decode(Date.self, forKey: .date)
+        let venue = try container.nestedContainer(keyedBy: VenueKeys.self, forKey: .venue)
+        displayLocation = try venue.decode(String.self, forKey: .displayLocation)
     }
     
     static var decoder: JSONDecoder = {
@@ -31,14 +35,8 @@ struct Event: Codable {
         decoder.dateDecodingStrategy = .formatted(DateFormatter.iso8601WithoutTimezone)
         return decoder
     }()
-    
-    static var encoder: JSONEncoder = {
-        let encoder = JSONEncoder()
-        encoder.dateEncodingStrategy = .formatted(DateFormatter.iso8601WithoutTimezone)
-        return encoder
-    }()
 }
 
-struct EventsResponse: Codable {
+struct EventsResponse: Decodable {
     let events: [Event]
 }
