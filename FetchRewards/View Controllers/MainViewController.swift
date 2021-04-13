@@ -12,13 +12,16 @@ class MainViewController: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
     
     let seatGeekClient = SeatGeekClient()
+    var eventsTableVC: EventsTableViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        if let eventsTableVC = segue.destination as? EventsTableViewController {
+            self.eventsTableVC = eventsTableVC
+        }
     }
 }
 
@@ -29,7 +32,7 @@ extension MainViewController: UISearchBarDelegate {
         seatGeekClient.fetchEventsMatchingQuery(query) { result in
             switch result {
             case .success(let events):
-                print("✅\(events.count) events fetched")
+                self.eventsTableVC.events = events
             case .failure(_):
                 let alert = UIAlertController(title: "Network Error", message: "Please check your internet connection", preferredStyle: .alert)
                 self.present(alert, animated: true, completion: nil)
