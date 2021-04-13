@@ -4,6 +4,9 @@ This repo contains my take-home project for the iOS Developer / Intern position 
 
 The app is ready to go. I didn't use any external dependencies. It meets MVP, except for saving favorites.
 
+<img width="300" alt="App screenshot" src="https://user-images.githubusercontent.com/438307/114626562-c163b100-9c68-11eb-9185-a68aac5170a8.png">
+
+
 ## Notes
 * The `clientID` & `clientSecret` are stored in `Secrets.swift`, whose filename is in `.gitignore` to prevent it reaching GitHub
 * I used extensions where it made sense, for DateFormatters and UIAlertController
