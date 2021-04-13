@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6369FB1026261DB20038910E /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6369FB0E26261DB20038910E /* EventTableViewCell.swift */; };
 		6369FB1126261DB20038910E /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6369FB0F26261DB20038910E /* EventTableViewCell.xib */; };
+		6369FB132626344B0038910E /* UIImage+loadNetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6369FB122626344B0038910E /* UIImage+loadNetworkImage.swift */; };
 		63897E16262538E70088E86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E15262538E70088E86E /* AppDelegate.swift */; };
 		63897E18262538E70088E86E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E17262538E70088E86E /* SceneDelegate.swift */; };
 		63897E1A262538E70088E86E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E19262538E70088E86E /* MainViewController.swift */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		6369FB0E26261DB20038910E /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		6369FB0F26261DB20038910E /* EventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		6369FB122626344B0038910E /* UIImage+loadNetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+loadNetworkImage.swift"; sourceTree = "<group>"; };
 		63897E12262538E70088E86E /* FetchRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63897E15262538E70088E86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63897E17262538E70088E86E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				63897E17262538E70088E86E /* SceneDelegate.swift */,
 				63897E3C26253CC00088E86E /* Secrets.swift */,
 				63897E4326254ED40088E86E /* Extensions.swift */,
+				6369FB122626344B0038910E /* UIImage+loadNetworkImage.swift */,
 				63897E40262541CB0088E86E /* Model */,
 				63897E29262539FC0088E86E /* Networking */,
 				63897E46262614DD0088E86E /* View Controllers */,
@@ -258,6 +261,7 @@
 				63897E3D26253CC00088E86E /* Secrets.swift in Sources */,
 				63897E4426254ED40088E86E /* Extensions.swift in Sources */,
 				63897E1A262538E70088E86E /* MainViewController.swift in Sources */,
+				6369FB132626344B0038910E /* UIImage+loadNetworkImage.swift in Sources */,
 				63897E16262538E70088E86E /* AppDelegate.swift in Sources */,
 				63897E18262538E70088E86E /* SceneDelegate.swift in Sources */,
 				63897E48262615170088E86E /* EventsTableViewController.swift in Sources */,
