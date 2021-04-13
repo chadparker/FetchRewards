@@ -16,6 +16,7 @@
 		63897E2B26253A160088E86E /* SeatGeekClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E2A26253A160088E86E /* SeatGeekClient.swift */; };
 		63897E3326253A630088E86E /* FetchRewardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E3226253A630088E86E /* FetchRewardsTests.swift */; };
 		63897E3D26253CC00088E86E /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E3C26253CC00088E86E /* Secrets.swift */; };
+		63897E4426254ED40088E86E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E4326254ED40088E86E /* Extensions.swift */; };
 		63897E4526260EE60088E86E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E41262541F40088E86E /* Event.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		63897E3426253A630088E86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63897E3C26253CC00088E86E /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		63897E41262541F40088E86E /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		63897E4326254ED40088E86E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				63897E15262538E70088E86E /* AppDelegate.swift */,
 				63897E17262538E70088E86E /* SceneDelegate.swift */,
 				63897E3C26253CC00088E86E /* Secrets.swift */,
+				63897E4326254ED40088E86E /* Extensions.swift */,
 				63897E40262541CB0088E86E /* Model */,
 				63897E29262539FC0088E86E /* Networking */,
 				63897E19262538E70088E86E /* ViewController.swift */,
@@ -226,6 +229,7 @@
 			files = (
 				63897E4526260EE60088E86E /* Event.swift in Sources */,
 				63897E3D26253CC00088E86E /* Secrets.swift in Sources */,
+				63897E4426254ED40088E86E /* Extensions.swift in Sources */,
 				63897E1A262538E70088E86E /* ViewController.swift in Sources */,
 				63897E16262538E70088E86E /* AppDelegate.swift in Sources */,
 				63897E18262538E70088E86E /* SceneDelegate.swift in Sources */,
