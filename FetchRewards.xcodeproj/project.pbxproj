@@ -13,6 +13,7 @@
 		63897E1D262538E70088E86E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63897E1B262538E70088E86E /* Main.storyboard */; };
 		63897E1F262538E90088E86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63897E1E262538E90088E86E /* Assets.xcassets */; };
 		63897E22262538E90088E86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63897E20262538E90088E86E /* LaunchScreen.storyboard */; };
+		63897E2B26253A160088E86E /* SeatGeekClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E2A26253A160088E86E /* SeatGeekClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		63897E1E262538E90088E86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63897E21262538E90088E86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63897E23262538E90088E86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63897E2A26253A160088E86E /* SeatGeekClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatGeekClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				63897E15262538E70088E86E /* AppDelegate.swift */,
 				63897E17262538E70088E86E /* SceneDelegate.swift */,
+				63897E29262539FC0088E86E /* Networking */,
 				63897E19262538E70088E86E /* ViewController.swift */,
 				63897E1B262538E70088E86E /* Main.storyboard */,
 				63897E1E262538E90088E86E /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				63897E23262538E90088E86E /* Info.plist */,
 			);
 			path = FetchRewards;
+			sourceTree = "<group>";
+		};
+		63897E29262539FC0088E86E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				63897E2A26253A160088E86E /* SeatGeekClient.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 				63897E1A262538E70088E86E /* ViewController.swift in Sources */,
 				63897E16262538E70088E86E /* AppDelegate.swift in Sources */,
 				63897E18262538E70088E86E /* SceneDelegate.swift in Sources */,
+				63897E2B26253A160088E86E /* SeatGeekClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
