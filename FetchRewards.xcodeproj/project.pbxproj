@@ -93,7 +93,7 @@
 				63897E4326254ED40088E86E /* Extensions.swift */,
 				63897E40262541CB0088E86E /* Model */,
 				63897E29262539FC0088E86E /* Networking */,
-				63897E19262538E70088E86E /* MainViewController.swift */,
+				63897E46262614DD0088E86E /* View Controllers */,
 				63897E1B262538E70088E86E /* Main.storyboard */,
 				63897E1E262538E90088E86E /* Assets.xcassets */,
 				63897E20262538E90088E86E /* LaunchScreen.storyboard */,
@@ -125,6 +125,14 @@
 				63897E41262541F40088E86E /* Event.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		63897E46262614DD0088E86E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63897E19262538E70088E86E /* MainViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
