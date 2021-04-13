@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="113.83928571428571"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Events Table View Controller-->
         <scene sceneID="wLk-4H-3Cb">
             <objects>
-                <tableViewController id="Zu6-v4-sEg" sceneMemberID="viewController">
+                <tableViewController id="Zu6-v4-sEg" customClass="EventsTableViewController" customModule="FetchRewards" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="4JQ-3S-ACh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="767"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

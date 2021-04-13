@@ -18,6 +18,7 @@
 		63897E3D26253CC00088E86E /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E3C26253CC00088E86E /* Secrets.swift */; };
 		63897E4426254ED40088E86E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E4326254ED40088E86E /* Extensions.swift */; };
 		63897E4526260EE60088E86E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E41262541F40088E86E /* Event.swift */; };
+		63897E48262615170088E86E /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E47262615170088E86E /* EventsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		63897E3C26253CC00088E86E /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		63897E41262541F40088E86E /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		63897E4326254ED40088E86E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		63897E47262615170088E86E /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				63897E19262538E70088E86E /* MainViewController.swift */,
+				63897E47262615170088E86E /* EventsTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				63897E1A262538E70088E86E /* MainViewController.swift in Sources */,
 				63897E16262538E70088E86E /* AppDelegate.swift in Sources */,
 				63897E18262538E70088E86E /* SceneDelegate.swift in Sources */,
+				63897E48262615170088E86E /* EventsTableViewController.swift in Sources */,
 				63897E2B26253A160088E86E /* SeatGeekClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
