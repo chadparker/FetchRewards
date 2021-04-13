@@ -14,7 +14,18 @@
 		63897E1F262538E90088E86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63897E1E262538E90088E86E /* Assets.xcassets */; };
 		63897E22262538E90088E86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63897E20262538E90088E86E /* LaunchScreen.storyboard */; };
 		63897E2B26253A160088E86E /* SeatGeekClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E2A26253A160088E86E /* SeatGeekClient.swift */; };
+		63897E3326253A630088E86E /* FetchRewardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E3226253A630088E86E /* FetchRewardsTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63897E3526253A630088E86E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63897E0A262538E70088E86E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63897E11262538E70088E86E;
+			remoteInfo = FetchRewards;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		63897E12262538E70088E86E /* FetchRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +37,20 @@
 		63897E21262538E90088E86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63897E23262538E90088E86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63897E2A26253A160088E86E /* SeatGeekClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatGeekClient.swift; sourceTree = "<group>"; };
+		63897E3026253A630088E86E /* FetchRewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchRewardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63897E3226253A630088E86E /* FetchRewardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRewardsTests.swift; sourceTree = "<group>"; };
+		63897E3426253A630088E86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		63897E0F262538E70088E86E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63897E2D26253A630088E86E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				63897E14262538E70088E86E /* FetchRewards */,
+				63897E3126253A630088E86E /* FetchRewardsTests */,
 				63897E13262538E70088E86E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				63897E12262538E70088E86E /* FetchRewards.app */,
+				63897E3026253A630088E86E /* FetchRewardsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +101,15 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		63897E3126253A630088E86E /* FetchRewardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				63897E3226253A630088E86E /* FetchRewardsTests.swift */,
+				63897E3426253A630088E86E /* Info.plist */,
+			);
+			path = FetchRewardsTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,6 +130,24 @@
 			productReference = 63897E12262538E70088E86E /* FetchRewards.app */;
 			productType = "com.apple.product-type.application";
 		};
+		63897E2F26253A630088E86E /* FetchRewardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63897E3726253A630088E86E /* Build configuration list for PBXNativeTarget "FetchRewardsTests" */;
+			buildPhases = (
+				63897E2C26253A630088E86E /* Sources */,
+				63897E2D26253A630088E86E /* Frameworks */,
+				63897E2E26253A630088E86E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63897E3626253A630088E86E /* PBXTargetDependency */,
+			);
+			name = FetchRewardsTests;
+			productName = FetchRewardsTests;
+			productReference = 63897E3026253A630088E86E /* FetchRewardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -109,6 +159,10 @@
 				TargetAttributes = {
 					63897E11262538E70088E86E = {
 						CreatedOnToolsVersion = 12.5;
+					};
+					63897E2F26253A630088E86E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 63897E11262538E70088E86E;
 					};
 				};
 			};
@@ -126,6 +180,7 @@
 			projectRoot = "";
 			targets = (
 				63897E11262538E70088E86E /* FetchRewards */,
+				63897E2F26253A630088E86E /* FetchRewardsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +193,13 @@
 				63897E22262538E90088E86E /* LaunchScreen.storyboard in Resources */,
 				63897E1F262538E90088E86E /* Assets.xcassets in Resources */,
 				63897E1D262538E70088E86E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63897E2E26253A630088E86E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +217,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		63897E2C26253A630088E86E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63897E3326253A630088E86E /* FetchRewardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63897E3626253A630088E86E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63897E11262538E70088E86E /* FetchRewards */;
+			targetProxy = 63897E3526253A630088E86E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		63897E1B262538E70088E86E /* Main.storyboard */ = {
@@ -331,6 +409,46 @@
 			};
 			name = Release;
 		};
+		63897E3826253A630088E86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9M64Q4ZZ7;
+				INFOPLIST_FILE = FetchRewardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chadparker.FetchRewardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchRewards.app/FetchRewards";
+			};
+			name = Debug;
+		};
+		63897E3926253A630088E86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9M64Q4ZZ7;
+				INFOPLIST_FILE = FetchRewardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chadparker.FetchRewardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchRewards.app/FetchRewards";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -348,6 +466,15 @@
 			buildConfigurations = (
 				63897E27262538E90088E86E /* Debug */,
 				63897E28262538E90088E86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63897E3726253A630088E86E /* Build configuration list for PBXNativeTarget "FetchRewardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63897E3826253A630088E86E /* Debug */,
+				63897E3926253A630088E86E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
