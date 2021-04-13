@@ -30,8 +30,9 @@ extension MainViewController: UISearchBarDelegate {
             switch result {
             case .success(let events):
                 print("✅\(events.count) events fetched")
-            case .failure(let networkError):
-                print("🛑Error: \(networkError)")
+            case .failure(_):
+                let alert = UIAlertController(title: "Network Error", message: "Please check your internet connection", preferredStyle: .alert)
+                self.present(alert, animated: true, completion: nil)
             }
         }
     }
