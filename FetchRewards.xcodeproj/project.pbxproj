@@ -11,6 +11,8 @@
 		6369FB1126261DB20038910E /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6369FB0F26261DB20038910E /* EventTableViewCell.xib */; };
 		6369FB132626344B0038910E /* UIImage+loadNetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6369FB122626344B0038910E /* UIImage+loadNetworkImage.swift */; };
 		6369FB16262637C50038910E /* UIViewController+presentAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6369FB15262637C50038910E /* UIViewController+presentAlert.swift */; };
+		6369FB1D26263BDD0038910E /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6369FB1B26263BDD0038910E /* EventDetailViewController.swift */; };
+		6369FB1E26263BDD0038910E /* EventDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6369FB1C26263BDD0038910E /* EventDetailViewController.xib */; };
 		63897E16262538E70088E86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E15262538E70088E86E /* AppDelegate.swift */; };
 		63897E18262538E70088E86E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E17262538E70088E86E /* SceneDelegate.swift */; };
 		63897E1A262538E70088E86E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63897E19262538E70088E86E /* MainViewController.swift */; };
@@ -40,6 +42,8 @@
 		6369FB0F26261DB20038910E /* EventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
 		6369FB122626344B0038910E /* UIImage+loadNetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+loadNetworkImage.swift"; sourceTree = "<group>"; };
 		6369FB15262637C50038910E /* UIViewController+presentAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+presentAlert.swift"; sourceTree = "<group>"; };
+		6369FB1B26263BDD0038910E /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		6369FB1C26263BDD0038910E /* EventDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventDetailViewController.xib; sourceTree = "<group>"; };
 		63897E12262538E70088E86E /* FetchRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63897E15262538E70088E86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63897E17262538E70088E86E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -162,6 +166,8 @@
 			children = (
 				63897E19262538E70088E86E /* MainViewController.swift */,
 				63897E47262615170088E86E /* EventsTableViewController.swift */,
+				6369FB1B26263BDD0038910E /* EventDetailViewController.swift */,
+				6369FB1C26263BDD0038910E /* EventDetailViewController.xib */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6369FB1E26263BDD0038910E /* EventDetailViewController.xib in Resources */,
 				6369FB1126261DB20038910E /* EventTableViewCell.xib in Resources */,
 				63897E22262538E90088E86E /* LaunchScreen.storyboard in Resources */,
 				63897E1F262538E90088E86E /* Assets.xcassets in Resources */,
@@ -273,6 +280,7 @@
 				63897E4426254ED40088E86E /* DateFormatters.swift in Sources */,
 				63897E1A262538E70088E86E /* MainViewController.swift in Sources */,
 				6369FB132626344B0038910E /* UIImage+loadNetworkImage.swift in Sources */,
+				6369FB1D26263BDD0038910E /* EventDetailViewController.swift in Sources */,
 				63897E16262538E70088E86E /* AppDelegate.swift in Sources */,
 				63897E18262538E70088E86E /* SceneDelegate.swift in Sources */,
 				63897E48262615170088E86E /* EventsTableViewController.swift in Sources */,
